@@ -35,6 +35,8 @@ int main(void){
 
     int numero;
 
+    printf("\n--- FIZZ BUZZ ---\n\n");
+
     // do loop para evitar o usuario de colocar 0 no index
     do{
 
@@ -49,6 +51,7 @@ int main(void){
 
     } while(numero == 0);
 
+    printf("\n-----------------");
 
     return 0;
 }
